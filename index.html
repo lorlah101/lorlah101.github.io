@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").hide();
+            });
+        });
+        
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({left: '250px'});
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div class="search">What are you looking for? </div>
+
+    <header><img src="media/images/logo.png" alt="luxury-by-lorlah.logo">
+    
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+
+            <li><a href ="about.html">About us</a></li>
+
+            <li><a href ="products.html"> Products</a></li>
+
+            <li><a href ="signup.html"> Signup</a></li>
+
+            <li><a href= "login.html"> Log In</a></li> 
+
+            <li><a href= "contact.html"> Contact us</a></li>
+            
+
+
+
+        </ul>
+    </nav>
+
+    <figure class="tablet">
+        <img src="media/images/freeimage.jpg" alt="freeimage.jpg">
+    
+    </figure>
+
+    <main> 
+
+        <div class="row">
+
+            <div class ="column left desktop">
+                <p id="test2"> Luxurybylorlah is a luxury fashion page</p>
+                <ul>
+                    <li><a href ="#clothings">Clothings</a></li>
+                    <li><a href="#shoes">Shoes </a></li>
+                    <li><a href="#bags">Bags</a></li>
+                    <li><a href="#accessories">Accessories</a></li>
+                    <li><a href="#sales">sales</a></li>
+                  </ul>
+
+
+
+
+            </div>
+
+            <div class="column center">
+
+                <article>
+
+                    <h2 id="firsth2"> Welcome!</h2>
+                    <p> At Luxurybylorlah, We aim to bring luxury goods to our clients from all over the globe. Feel free to explore the page for luxuries.</p>
+
+                </article>
+
+                <article>
+
+                    <h2> Enjoy!</h2>
+
+                    <p id="test"> This website is up and running. However, I am just starting to design this page, It takes a lot of hardwork & efforts, there is a lot more to complete. </p>
+
+                </article>
+
+                <article>
+
+                    <h2> Work in progress!</h2>
+
+                    <p> This site has been a work in progress but it is still a good website production</p>
+
+                </article>
+
+            </div>
+
+            <div class="column right tablet">
+                <p> Explore the page</p>
+                <button>Click me to begin!</button>
+
+            </div>
+
+        </div>
+       
+
+    </main>
+
+    <footer>
+        <p> <strong>Our location :</strong> <br>
+            3 woodarce cottages<br>
+            millerbank<br>
+            Wallsend <br>
+            </p>
+    
+            <p><strong>Tel : </strong><a href="tel: +447494723466"> +4474 947 23466, +2348084907330</a></p>
+    
+            <p><strong>Email Address:</strong> <a href="mailto:luxurybylorlah@gmail.com"> luxurybylorlah@gmail.com</a></p> 
+    </footer>
+
+<script>
+ function myFunction () {
+    $("#firsth2").attr("style", "color: red ").html("Hello jQuery!");
+ }   
+ $(document).ready(myFunction);
+
+
+
+</script>
+    
+</body>
+</html>
